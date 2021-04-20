@@ -30,3 +30,5 @@ brew upgrade hashicorp/tap/terraform
 git clone https://github.com/mbadolato/iTerm2-Color-Schemes ~/Downloads/iterm2-color-schemes
 ~/Downloads/iterm2-color-schemes/tools/import-scheme.sh -v ~/Downloads/iterm2-color-schemes/schemes/*
 rm -rf ~/Downloads/iterm2-color-schemes
+
+echo "restart iterm2 and change your theme at: iTerm2 > Preferences > Profile > Colors > Color Presets"
