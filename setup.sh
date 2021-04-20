@@ -25,3 +25,8 @@ source ~/.zshrc
 brew tap hashicorp/tap
 brew install hashicorp/tap/terraform
 brew upgrade hashicorp/tap/terraform
+
+# iterm2 customization
+git clone https://github.com/mbadolato/iTerm2-Color-Schemes ~/Downloads/iterm2-color-schemes
+~/Downloads/iterm2-color-schemes/tools/import-scheme.sh -v ~/Downloads/iterm2-color-schemes/schemes/*
+rm -rf ~/Downloads/iterm2-color-schemes
