@@ -26,6 +26,10 @@ brew tap hashicorp/tap
 brew install hashicorp/tap/terraform
 brew upgrade hashicorp/tap/terraform
 
+# powerlevel9k
+git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
+echo "set ZSH_THEME="powerlevel9k/powerlevel9k" in ~/.zshrc"
+
 # iterm2 customization
 git clone https://github.com/mbadolato/iTerm2-Color-Schemes ~/Downloads/iterm2-color-schemes
 ~/Downloads/iterm2-color-schemes/tools/import-scheme.sh -v ~/Downloads/iterm2-color-schemes/schemes/*
