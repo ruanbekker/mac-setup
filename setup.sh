@@ -26,6 +26,10 @@ brew tap hashicorp/tap
 brew install hashicorp/tap/terraform
 brew upgrade hashicorp/tap/terraform
 
+# install font
+echo "download, install this font and set on iterm2 at Term2 > Preferences > Profile > Text > Font" 
+echo 'https://github.com/powerline/fonts/raw/master/Inconsolata/Inconsolata%20Bold%20for%20Powerline.ttf'
+
 # powerlevel9k
 git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
 echo "set ZSH_THEME="powerlevel9k/powerlevel9k" in ~/.zshrc"
