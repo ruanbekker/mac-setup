@@ -13,6 +13,7 @@ brew install --appdir="/Applications" jq
 brew install --appdir="/Applications" wget
 brew install --appdir="/Applications" go
 brew install --appdir="/Applications" kubernetes-cli
+brew install --cask --appdir="/Applications" docker
 brew install --cask --appdir="/Applications" multipass
 brew install --cask --appdir="/Applications" virtualbox
 brew install --cask --appdir="/Applications" vagrant
