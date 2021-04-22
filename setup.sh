@@ -14,12 +14,13 @@ brew install --appdir="/Applications" wget
 brew install --appdir="/Applications" go
 brew install --appdir="/Applications" kubernetes-cli
 brew install --appdir="/Applications" docker-compose
+brew install --appdir="/Applications" fzf
 brew install --cask --appdir="/Applications" docker
 brew install --cask --appdir="/Applications" multipass
 brew install --cask --appdir="/Applications" virtualbox
 brew install --cask --appdir="/Applications" vagrant
 brew install --cask --appdir="/Applications" visual-studio-code
-brew install --build-from-source fzf
+brew install --cask --appdir="/Applications" spotify
 
 /usr/local/opt/fzf/install
 source ~/.zshrc
