@@ -265,7 +265,7 @@ cd ~/
 
 ```
 cd ~/
-curl -O https://raw.githubusercontent.com/rbekker87/mac-setup/master/.bash_prompt
-curl -O https://raw.githubusercontent.com/rbekker87/mac-setup/master/.bash_profile
-curl -O https://raw.githubusercontent.com/rbekker87/mac-setup/master/.aliases
+curl -O https://raw.githubusercontent.com/ruanbekker/mac-setup/master/.bash_prompt
+curl -O https://raw.githubusercontent.com/ruanbekker/mac-setup/master/.bash_profile
+curl -O https://raw.githubusercontent.com/ruanbekker/mac-setup/master/.aliases
 ```
