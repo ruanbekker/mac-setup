@@ -8,6 +8,21 @@ aws-ssh(){
   aws --profile dev ssm start-session --target ${instance_id}
 }
 
+# backup to tarball
+backup_tar(){
+  tar -zcvf ~/backups/laptop-backup-$(date +%F).tar.gz ~/.custom/functions.sh ~/.custom/exports.sh ~/.custom/aliases.sh ~/.custom/functions.sh ~/.zshrc ~/.zsh_history ~/.vimrc ~/.oh-my-zsh/oh-my-zsh.sh ~/.ssh/config ~/personal ~/workspace ~/Documents ~/Desktop ~/howto
+}
+
+# sync backups to backups server
+backup_sync_home(){
+  rsync -av ~/backups/ backups:/disk2/backups/laptop/
+}
+
+# kill all ssh-agent processes
+kill_ssh_agents(){
+  ps aux | grep -i 'ssh-agent -t' | grep -v grep| awk {'print $2'}
+}
+
 mvn(){
   docker run --privileged -it --rm --name maven -v /var/run/docker.sock:/var/run/docker.sock -v "$(pwd)":/usr/src/mymaven -v ~/.m2:/root/.m2 -w /usr/src/mymaven maven:3.6.3-openjdk-15 mvn clean install -DskipTests
 }
@@ -16,12 +31,14 @@ mysql(){
   docker run -it ruanbekker/mysql "$@"
 }
 
+# loki config
 source_loki(){
   export LOKI_ADDR="http://localhost:3100"
   export LOKI_USERNAME=""
   export LOKI_PASSWORD=""
 }
 
+# create vpn with shuttle and forward specified range via tunnel
 vpn(){
   sshuttle -r ssh-jump-host 172.31.0.0/16
 }
