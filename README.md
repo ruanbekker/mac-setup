@@ -62,9 +62,10 @@ ZSH Config:
 ZSH_THEME="powerlevel9k/powerlevel9k"
 ```
 
-Theme Config:
+Theme Config: (`~/.oh-my-zsh/custom/themes/powerlevel9k/powerlevel9k.zsh-theme`)
 
 ```
+set_default POWERLEVEL9K_CONTEXT_TEMPLATE "%n"
 defined POWERLEVEL9K_LEFT_PROMPT_ELEMENTS || POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(context dir vcs)
 defined POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS || POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(root_indicator background_jobs)
 ```
