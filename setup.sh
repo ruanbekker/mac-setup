@@ -27,6 +27,8 @@ brew install --cask --appdir="/Applications" vagrant
 brew install --cask --appdir="/Applications" visual-studio-code
 brew install --cask --appdir="/Applications" spotify
 
+brew install python@3.7
+
 /usr/local/opt/fzf/install
 source ~/.zshrc
 
