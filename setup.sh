@@ -36,6 +36,10 @@ brew tap hashicorp/tap
 brew install hashicorp/tap/terraform
 brew upgrade hashicorp/tap/terraform
 
+# openjdk
+brew tap AdoptOpenJDK/openjdk
+brew install --cask adoptopenjdk15
+
 # install font
 echo "download, install this font and set on iterm2 at Term2 > Preferences > Profile > Text > Font" 
 echo 'https://github.com/powerline/fonts/raw/master/Inconsolata/Inconsolata%20Bold%20for%20Powerline.ttf'
