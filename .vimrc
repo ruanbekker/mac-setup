@@ -19,7 +19,7 @@ augroup filetype
 augroup END
 
 " set indentation to 2 spaces
-autocmd FileType lua,nginx set shiftwidth=2 softtabstop=2
+autocmd FileType lua,nginx,sh set shiftwidth=2 softtabstop=2
 
 " set indentation to 4 spaces
 autocmd FileType html,xhtml,css,xml,xslt,python set shiftwidth=4 softtabstop=4
