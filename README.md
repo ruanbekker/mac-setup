@@ -93,12 +93,11 @@ brew install fzf
 brew install kubernetes-cli
 ```
 
-Plugins:
-
-```
-vscode:
-- https://www.raspberrypi.org/blog/coding-on-raspberry-pi-remotely-with-visual-studio-code/
-```
+VSCode:
+- GitLens
+- Theme: Firefly Pro
+- Fonts: https://github.com/romkatv/powerlevel10k/issues/671#issuecomment-621031981
+- Remote SSH: https://www.raspberrypi.org/blog/coding-on-raspberry-pi-remotely-with-visual-studio-code/
 
 Configure fzf:
 
