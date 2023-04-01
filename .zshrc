@@ -37,13 +37,7 @@ plugins=(git zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
 
-# User configuration
-
-# You may need to manually set your language environment
-# export LANG=en_US.UTF-8
-
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
+# Custom Aliases
+source ~/.custom/init.sh
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
