@@ -49,12 +49,20 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 iTerm Customization:
 
+1. ZSH
+2. Agnoster ZSH Theme, Argonaut iTerm Color Theme
+3. Powerline and Menlo Fonts
+4. VSCode Fix (`"terminal.integrated.fontFamily": "Menlo for Powerline"`)
+5. ZSH AutoSuggestions
+
+See this guide:
+- https://gabrieltanner.org/blog/customizing-terminal-using-ohmyzsh/
+
+Extra resources:
 - https://www.freecodecamp.org/news/how-to-configure-your-macos-terminal-with-zsh-like-a-pro-c0ab3f3c1156/ (best)
 - https://github.com/romkatv/powerlevel10k
 - https://www.freecodecamp.org/news/jazz-up-your-zsh-terminal-in-seven-steps-a-visual-guide-e81a8fd59a38/
 - https://medium.com/ayuth/iterm2-zsh-oh-my-zsh-the-most-power-full-of-terminal-on-macos-bdb2823fb04c
-
-iTerm Color Theme: `argonaut`
 
 ZSH Config:
 
