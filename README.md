@@ -103,9 +103,15 @@ brew install fzf
 brew install kubernetes-cli
 ```
 
+Firefox:
+
+- [Firefly Pro Theme](https://addons.mozilla.org/en-GB/firefox/addon/firefly-pro/)
+- [Multi-Account Containers](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/)
+
 VSCode:
+
 - GitLens
-- Theme: Firefly Pro
+- Theme: [Firefly Pro](https://marketplace.visualstudio.com/items?itemName=ankitcode.firefly)
 - Fonts: https://github.com/romkatv/powerlevel10k/issues/671#issuecomment-621031981
 - Remote SSH: https://www.raspberrypi.org/blog/coding-on-raspberry-pi-remotely-with-visual-studio-code/
 
@@ -268,6 +274,7 @@ cd ~/
 
 #### AWS
 
+- [Granted](https://granted.dev/)
 - https://github.com/donnemartin/dev-setup#awesome-aws-
 
 #### Terminal
