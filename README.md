@@ -172,7 +172,7 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
 command -v nvm
 nvm ls-remote --lts
-nvm install node
+nvm install node # or: nvm install --lts
 nvm use node
 ```
 
