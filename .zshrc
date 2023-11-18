@@ -14,6 +14,8 @@ export ZSH="~/.oh-my-zsh"
 
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME="powerlevel9k/powerlevel9k"
+# See https://github.com/tobyjamesthomas/pi
+# ZSH_THEME="pi"
 
 # Uncomment the following line to disable bi-weekly auto-update checks.
 # DISABLE_AUTO_UPDATE="true"
