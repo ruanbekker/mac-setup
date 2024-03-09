@@ -27,6 +27,10 @@ Repo for My Mac Setup
 - Evernote
 - Evernote Clipper
 - Authy
+- Terminal:
+  Terminal Tools:
+  - tmux
+  - neovim
 ```
 
 #### Homebrew:
@@ -115,6 +119,20 @@ VSCode:
 - Fonts: https://github.com/romkatv/powerlevel10k/issues/671#issuecomment-621031981
 - Remote SSH: https://www.raspberrypi.org/blog/coding-on-raspberry-pi-remotely-with-visual-studio-code/
 
+Terminal Tools:
+
+- neovim
+- tmux
+- fzf
+
+Configure `neovim`:
+
+TODO
+
+Configure `tmux`:
+
+TODO
+
 Configure fzf:
 
 ```
@@ -202,31 +220,6 @@ echo "export WORKON_HOME=~/.virtualenvs" >> $EXTRA_PATH
 echo "source /usr/local/bin/virtualenvwrapper.sh" >> $EXTRA_PATH
 echo "" >> $BASH_PROFILE_PATH
 source $EXTRA_PATH
-```
-
-Python2
-
-```
-cd ~/
-mkvirtualenv py2-data
-workon py2-data
-pip install numpy
-pip install scipy
-pip install matplotlib
-pip install pandas
-pip install sympy
-pip install nose
-pip install unittest2
-pip install seaborn
-pip install scikit-learn
-pip install "ipython[all]"
-pip install bokeh
-pip install Flask
-pip install sqlalchemy
-pip install flask-sqlalchemy
-pip install boto3
-LDFLAGS="-I/usr/local/opt/openssl/include -L/usr/local/opt/openssl/lib" pip install mysqlclient
-echo "Usage: workon py2-data"
 ```
 
 Python3:
