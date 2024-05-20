@@ -175,10 +175,14 @@ sdk list java
 sdk install java 11.0.3-amzn
 ```
 
-Golang:
+Golang with [gvm](https://github.com/moovweb/gvm):
 
 ```
-brew install go
+bash < <(curl -s -S -L https://raw.githubusercontent.com/moovweb/gvm/master/binscripts/gvm-installer)
+source ~/.gvm/scripts/gvm
+gvm listall
+gvm install go1.20.9
+gvm use go1.20.9 [--default]
 ```
 
 Nodejs with [nvm](https://itsromiljain.medium.com/the-best-way-to-install-node-js-npm-and-yarn-on-mac-osx-4d8a8544987a):
