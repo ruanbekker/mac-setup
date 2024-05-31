@@ -168,6 +168,9 @@ mongod --config /usr/local/etc/mongod.conf
 
 SDKMan / Java:
 
+- [sdkman](https://github.com/sdkman/sdkman-cli)
+- [jenv (alternative)](https://github.com/jenv/jenv)
+
 ```
 curl -s "https://get.sdkman.io" | bash
 source ~/.sdkman/bin/sdkman-init.sh
