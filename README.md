@@ -124,6 +124,7 @@ Terminal Tools:
 - neovim
 - tmux
 - fzf
+- [just](https://github.com/casey/just)
 
 Configure `neovim`:
 
